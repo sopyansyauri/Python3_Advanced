@@ -17,8 +17,8 @@ def Main():
         lineNum += 1
         searchResult = re.search(args.word, line, re.M|re.I)
         if (searchResult):
-            # print(f"{str(lineNum)}: {line}")
-            print(str(lineNum)+": " + line)
+            print(f"{str(lineNum)}: {line}")
+            # print(str(lineNum)+": " + line)
 
 
 if __name__ == "__main__":
